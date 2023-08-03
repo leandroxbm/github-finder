@@ -71,7 +71,7 @@ function getAllData(){
                                 <span>Forks: ${repo.forks_count}</span>
                                 <span>Date: ${new Date(repo.update_at).toLocaleDateString('pt-br')}</span>
                                 </div>
-                                <a href"${repo.html_url}" target="_blank">
+                                <a href="${repo.html_url}" target="_blank">
                                 <span>Link: ${repo.html_url}</span>
                                 </div>`).join("")}
 
